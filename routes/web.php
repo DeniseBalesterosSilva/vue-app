@@ -43,7 +43,7 @@ Route::middleware('auth')->group(function () {
     Route::get('consolidated', [ConsolidatedController::class, 'index'])->name('consolidated');
 
     Route::get('compare', [CompareController::class, 'index'])->name('compare');
-    Route::post('compare', [CompareController::class, 'index'])->name('compare');
+    Route::post('compare', [CompareController::class, 'store'])->name('compare-store');
 });
 
 require __DIR__.'/auth.php';
