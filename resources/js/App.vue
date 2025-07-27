@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import TabNavigation from './Components/TabNavigation.vue'; // Adaptando a antiga @include
+import TabNavigation from './Components/MyTabNavigation.vue'; // Adaptando a antiga @include
 
 export default {
   name: 'AppLayout',
